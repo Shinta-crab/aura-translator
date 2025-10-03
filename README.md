@@ -1,24 +1,35 @@
-# README
+# サービス概要
+日頃の悩み、不満を某漫画、アニメの能力のような技名に変換してくれるアプリ。  
+悩み、不満を中２病っぽい名前に変換することで、クスッと笑って乗り切ろうとするアプリ。  
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# 開発背景理由
+- 悩みや不安は誰でも持っているものです。その負の感情を中2病チックな技名に変換して、クスッとすることで少しでもその負の感情を和らげることができたらという理由
+- 技術としてAIを組み込んだアプリを作成して学びを深める目的
+上記２つ理由から本アプリを作成した。
 
-Things you may want to cover:
+# 利用イメージ
+1. メールアドレスでのアカウント作成・ログイン
+2. 悩みと悩みのカテゴリを選択し、投稿し、念能力に変換する
+3. 
+# 使用技術
 
-* Ruby version
+# 機能実装内容
+## MVP時
+  - ログイン認証機能（ユーザーアカウント名＋emailアドレス＋パスワード）
+  - ログインなしでのお試し機能
+  - オーラ（悩み）→念能力生成機能（OpenAI API）
+  - 悩みタグづけ機能
+  - 能力お気に入り機能
+  - お気に入り能力ランキング
+  - 生成結果のXシェア機能
 
-* System dependencies
+## アップデート時/本リリース時
+  - カード作成機能
+  - カード対戦機能
+  - 対戦ランキング機能
 
-* Configuration
+# 画面遷移図
 
-* Database creation
+# ER図
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# 
